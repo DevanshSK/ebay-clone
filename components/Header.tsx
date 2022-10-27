@@ -104,6 +104,7 @@ function Header({}: Props) {
         <p className="link hidden xl:inline">Other</p>
         <p className="link hidden xl:inline">More</p>
       </section>
+      <hr />
     </div>
   );
 }
