@@ -16,7 +16,7 @@ const Home = () => {
   const { data: listings, isLoading: loadingListings } =
     useActiveListings(contract);
 
-  console.log(listings);
+  // console.log(listings);
 
   return (
     <div className="">
@@ -58,7 +58,7 @@ const Home = () => {
                   </p>
 
                   <div
-                    className={`flex items-center space-x-1 justify-end text-xs w-fit border ml-auto p-2 rounded-lg text-white ${
+                    className={`flex items-center space-x-1 justify-end text-xs w-fit border ml-auto py-2 px-4 rounded-lg text-white ${
                       listing.type === ListingType.Direct
                         ? "bg-blue-500"
                         : "bg-red-500"
