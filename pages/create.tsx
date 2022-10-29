@@ -89,7 +89,7 @@ function Create({}: Props) {
         },
         {
           onSuccess(data, variables, context) {
-            console.log("SUCCESS : ", data, variables, context);
+            // console.log("SUCCESS : ", data, variables, context);
             router.push("/");
           },
           onError(error, variables, context) {
@@ -112,7 +112,7 @@ function Create({}: Props) {
         },
         {
           onSuccess(data, variables, context) {
-            console.log("SUCCESS : ", data, variables, context);
+            // console.log("SUCCESS : ", data, variables, context);
             router.push("/");
           },
           onError(error, variables, context) {
